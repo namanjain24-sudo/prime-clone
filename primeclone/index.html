@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .fancy-text {
+            font-family: "Amazon Ember", Arial, sans-serif;
+            font-size: 15px;
+            font-weight: bold;
+            color: aliceblue;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+            letter-spacing: 2px;
+            transition: all 0.3s ease;
+        }
+        .home-button {
+            font-family: "Amazon Ember", Arial, sans-serif;
+            background-color: #000000;
+            color: rgb(255, 255, 255);
+            padding: 7px;
+            border: none;
+            border-radius: 5px;
+            font-size: 14px;
+            text-decoration: none;
+            transition: color 0.3s, background-color 0.3s;
+            margin-left: 22px; 
+            font-weight: bold;
+        }
+        .home-button:hover {
+            color: rgb(0, 0, 0);
+            background-color: #ffffff;
+        }
+        .small-image-container {
+            display: flex;
+            align-items: center;
+            margin-top: -15px;
+            margin-left: 40px;
+        }
+        .large-image-container {
+            display: flex;
+            align-items: center;
+            padding-left: 50px;
+            gap: 0px; /* Set gap to 0 to remove extra spacing */
+            flex-direction: row;
+            margin-top: 20px;
+        }
+        .large-image {
+            display: block;
+        }
+        .home-buttonpp {
+            font-family: "Amazon Ember", Arial, sans-serif;
+            background-color: #157bcf;
+            color: rgb(255, 255, 255);
+            padding: 7px;
+            border: none;
+            border-radius: 5px;
+            font-size: 14px;
+            text-decoration: none;
+            transition: color 0.3s, background-color 0.3s;
+            margin-left: 22px; 
+            font-weight: bold;
+        }
+        .home-buttonpp:hover {
+            color: rgb(0, 0, 0);
+            background-color: #0b5c9f;
+        }
+        .welcome-text {
+            font-family: "Amazon Ember", Arial, sans-serif;
+            color: white;
+            font-size: 44px;
+            font-weight: bold;
+            margin-top: 0;
+        }
+        .subtext {
+            font-family: "Amazon Ember", Arial, sans-serif;
+            color: #ffffff;
+            font-size: 18px;
+            margin-top: 10px;
+        }
+        .text-container {
+            display: flex;
+            flex-direction: column;
+        }
+        .sign-in-button {
+            margin-top: 30px;
+            margin-left: 20px;
+            background-color: #ffffff;
+            color: rgb(0, 0, 0);
+            padding: 17px 26px;
+            padding-right:-2000px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            font-family: "Amazon Ember", Arial, sans-serif;
+            cursor: pointer;
+            transition: transform 0.3s ease, background-color 0.3s ease;
+            text-decoration: none;
+            display: inline-block;
+        }
+        .sign-in-button:hover {
+            background-color: #f1f1f1;
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body style="background-color:#000000;">
+    <div class="small-image-container">
+        <a href="#">
+            <img src="assets/Screenshot_2024-11-13_at_4.32.48_PM-removebg-preview.png" width="100px" style="padding:7px;">
+        </a>
+        <a href="index.html" class="home-button" style="padding-left:13px;padding-right:13px;">Home</a>
+        <a href="index.html" class="home-button" style="padding-left:13px;padding-right:13px;">Movie</a>
+        <a href="index.html" class="home-button" style="padding-left:13px;padding-right:13px;">TV Show</a>
+        <a href="index.html" class="home-button" style="padding-left:13px;padding-right:13px;">Live TV</a>
+        <h1 style="color: #646464;padding-left: 20px;font-weight: bold;">∣</h1>
+        <a href="index.html" class="home-button" style="padding-left:13px;padding-right:13px;">Subscriptions</a>
+        <a href="index.html" class="home-button" style="padding-left:13px;padding-right:13px;font-size:20px;border-radius:100%;margin-left:300px;">🔍</a>
+        <a href="index.html" class="home-button" style="padding-left:13px;padding-right:13px;font-size:17px;margin-left:2px;">EN ⋀</a>
+        <a href="index.html" class="home-button" style="padding-left:13px;padding-right:13px;font-size:10px;margin-left:2px;">𓃑</a>
+        <a href="index.html" class="home-button" style="padding-left:13px;padding-right:13px;font-size:27px;margin-left:2px;border-radius:100%">🧑‍🧒</a>
+        <a href="index.html" class="home-buttonpp" style="padding-left:13px;padding-right:13px;margin-left:2px;">Join Prime</a>
+    </div>
+    <div class="large-image-container">
+        <div class="text-container">
+            <h1 class="welcome-text" style="margin-top:-200px;margin-left:1px;">Welcome to Prime Video</h1>
+            <p class="subtext" style="padding-top:6px;margin-left:1px;">Join Prime to watch the latest movies, TV shows, and award-winning <br>Amazon Originals.</p>
+            <a href="sign-in.html" class="sign-in-button" style="width:120px;padding-left:-30px;padding-right:-20px;">Sign In to prime</a>
+        </div>
+        <img src="assets/primess.png" width="760px" class="large-image" style="margin-right:-1000px;padding-right:-100px;padding-left:30px;">
+    </div>
+    <img src="assets/nn.png" width="700px"style="margin-right:-10000px;padding-right:1px;padding-left:85px;margin-left:570px;margin-top:30px">
+    <h1 class="welcome-text" style="margin-top:-400px;margin-left:32px;">Movie rentals on Prime <br>Video
+    </h1>
+    <p class="subtext" style="padding-top:6px;margin-left:32px;">Early Access to new movies, before digital subscription.</p>
+    <a href="sign-in.html" class="sign-in-button" style="width:120px;padding-left:-30px;padding-right:-20px;">Rent now</a>
+
+    <div>
+    <img src="assets/ss.png" width="760px"style="margin-right:-1000px;padding-right:-90px;padding-left:0px;margin-left:630px;margin-top:170px">
+    <H1 class="welcome-text" style="margin-top:-400px;margin-left:32px;">Your favorite subscriptions<BR> all in one place</H1>
+    <p class="subtext" style="padding-top:6px;margin-left:32px;">With Prime Video Channels, find shows and movies from your favorite<BR> channels all in one place. Enjoy with an add-on subscription to Channels<BR> of your choice</p>  
+</div>
+<div style="background-color:#212121;margin-top:200px;padding-bottom:20px;">
+    <img src="assets/logo.png" width="190px" style="margin-left:550px;">
+    <div style="margin-left: 470px;margin-bottom:18px;">
+        <a href="index.html" style="padding-left:13px;padding-right:13px;text-decoration: none;color:#09a7e0;">Terms and Privacy Notice</a>
+        <a href="index.html" style="padding-left:13px;padding-right:13px;text-decoration: none;color:#09a7e0;">Send us feedback</a>
+        <a href="index.html" style="padding-left:13px;padding-right:13px;text-decoration: none;color:#09a7e0;">Help</a>
+        
+    </div>
+
+</div>
+</body>
+</html>
